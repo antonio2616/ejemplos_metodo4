@@ -1,0 +1,16 @@
+public class metodo4_1 {
+
+	public static void main(String[] args) {
+		int resul;
+		resul = division (10,2);
+		imprimir(resul);
+		}
+	public static int division(int a, int b){
+		int divi=a/b;
+		return divi;
+	}
+	public static void imprimir(int z){
+		System.out.println("el reultado es: "+z);
+	}
+
+}
